@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# React E-Commerce Store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive e-commerce web application built with React, Tailwind CSS, and React Router. The app leverages the [FakeStoreAPI](https://fakestoreapi.com/) for products and user data, featuring authentication, cart functionality, product search, checkout with payment options, and user profile management.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Demo
 
-### `npm start`
+*https://ecommerce-store-tawny-xi.vercel.app*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Product Catalog:** View dynamic product listings and categories fetched from FakeStoreAPI
+- **Search:** Search products with a responsive search bar integrated into the navbar
+- **Authentication:** Login and logout with user session management (supports FakeStoreAPI users or custom usernames)
+- **User Profile:** View and update user details, including uploading a profile image (stored locally)
+- **Shopping Cart:** Add, update quantity, and remove items; cart state is persisted with localStorage
+- **Checkout:** Multi-step checkout form with validation, supporting credit card and cash on delivery payment methods
+- **Responsive Design:** Fully responsive UI optimized for desktop, tablet, and mobile devices
+- **Animations:** Smooth UI transitions and hover effects with Framer Motion
+- **Notifications:** User actions are confirmed or errored via React Toastify notifications
+- **Error Handling:** Graceful error boundaries and API request handling
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React 18+
+- React Router DOM v6
+- Tailwind CSS (v3 or v4)
+- React Icons
+- Framer Motion
+- React Toastify
+- FakeStoreAPI (public REST API)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Node.js v16+
+- npm or yarn package manager
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
+```
+git clone <your-repo-url>
+cd ecommerce-store
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Running Locally
 
-## Learn More
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Open [http://localhost:3000](http://localhost:3000) to view the app in development mode.
 
-### Code Splitting
+### Building for Production
+npm run build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Usage
 
-### Making a Progressive Web App
+- Navigate between product categories via the navbar
+- Search products globally using the navbar search
+- Register/login with existing FakeStoreAPI users or free text username (non-secure demo mode)
+- Manage your shopping cart with quantity controls and removals
+- Proceed to checkout after login (supports form validation and payment method toggling)
+- Update your account info and profile picture in the profile page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Acknowledgements
 
-### Deployment
+- [FakeStoreAPI](https://fakestoreapi.com/) for providing product and user data API  
+- React and Tailwind CSS communities for inspiring and powerful libraries
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
