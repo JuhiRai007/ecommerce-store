@@ -1,4 +1,4 @@
-# React E-Commerce Store
+# E-Commerce Store
 
 A modern, responsive e-commerce web application built with React, Tailwind CSS, and React Router. The app leverages the [FakeStoreAPI](https://fakestoreapi.com/) for products and user data, featuring authentication, cart functionality, product search, checkout with payment options, and user profile management.
 
@@ -46,7 +46,7 @@ A modern, responsive e-commerce web application built with React, Tailwind CSS, 
 
 ### Installation
 ```
-git clone <your-repo-url>
+git clone https://github.com/JuhiRai007/ecommerce-store.git
 cd ecommerce-store
 npm install
 ```
