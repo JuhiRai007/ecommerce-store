@@ -68,10 +68,10 @@ export default function Cart() {
               />
 
               <div className="flex flex-col sm:ml-6 mt-4 sm:mt-0 flex-grow w-full">
-                <h2 className="text-lg font-semibold text-gray-900 truncate">{title}</h2>
+                <h2 className="text-lg font-semibold text-gray-900 line-clap-2">{title}</h2>
                 <p className="text-blue-600 font-bold text-xl mt-1">{formatIndianRupee(price)}</p>
 
-                <div className="mt-auto flex items-center space-x-3 mt-5">
+                <div className="flex items-center space-x-3 mt-4">
                   <label htmlFor={`qty-${id}`} className="sr-only">
                     Quantity for {title}
                   </label>
@@ -126,7 +126,7 @@ export default function Cart() {
               <span>{formatIndianRupee(totalPrice)}</span>
             </div>
             <hr />
-            <div className="flex justify-between mt-6 font-extrabold text-2xl text-gray-900">
+            <div className="flex justify-between mt-6 font-bold text-2xl text-gray-900">
               <span>Total</span>
               <span>{formatIndianRupee(totalPrice)}</span>
             </div>

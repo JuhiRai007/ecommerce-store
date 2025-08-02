@@ -46,7 +46,7 @@ export default function ProductDetail() {
       <img
         src={product.image}
         alt={product.title}
-        className="h-96 object-contain mx-auto"
+        className="h-96 object-contain mx-auto border border-gray-200 px-4 py-2 rounded-md"
         loading="lazy"
       />
       <div className="flex flex-col max-w-2xl">

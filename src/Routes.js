@@ -8,10 +8,12 @@ import Checkout from "./pages/Checkout";
 import Login from "./pages/Login";
 import PrivateRoute from "./components/PrivateRoute";
 import Profile from "./pages/Profile"
+import SearchResults from "./pages/SearchResults";
 export default function AppRoutes() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="search" element={<SearchResults />}/>
       <Route path="/category/:categoryName" element={<Category />} />
       <Route path="/product/:id" element={<ProductDetail />} />
       <Route path="/cart" element={<Cart />} />

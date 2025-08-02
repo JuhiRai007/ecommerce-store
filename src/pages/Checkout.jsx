@@ -121,13 +121,13 @@ export default function Checkout() {
               <label className="flex flex-col text-gray-700 font-medium mb-1">
                 Full Name
                 <div className="relative">
-                  <FaUser className="absolute left-3 top-3 text-blue-500" />
+                  <FaUser className="absolute left-3 top-4 text-blue-500" />
                   <input
                     type="text"
                     name="name"
                     value={form.name}
                     onChange={handleChange}
-                    placeholder="John Doe"
+                    placeholder="Enter Name"
                     className={`w-full pl-10 pr-3 py-3 border rounded-md transition ${
                       errors.name ? "border-red-500" : "border-gray-300"
                     } focus:outline-none focus:ring-2 focus:ring-blue-400`}
@@ -144,7 +144,7 @@ export default function Checkout() {
               <label className="flex flex-col text-gray-700 font-medium mb-1">
                 Email
                 <div className="relative">
-                  <FaEnvelope className="absolute left-3 top-3 text-blue-500" />
+                  <FaEnvelope className="absolute left-3 top-4 text-blue-500" />
                   <input
                     type="email"
                     name="email"
@@ -167,7 +167,7 @@ export default function Checkout() {
               <label className="flex flex-col text-gray-700 font-medium mb-1">
                 Phone Number
                 <div className="relative">
-                  <FaPhone className="absolute left-3 top-3 text-blue-500" />
+                  <FaPhone className="absolute left-3 top-4 text-blue-500" />
                   <input
                     type="text"
                     name="phone"
@@ -190,7 +190,7 @@ export default function Checkout() {
               <label className="flex flex-col text-gray-700 font-medium mb-1">
                 City
                 <div className="relative">
-                  <FaMapMarkerAlt className="absolute left-3 top-3 text-blue-500" />
+                  <FaMapMarkerAlt className="absolute left-3 top-4 text-blue-500" />
                   <input
                     type="text"
                     name="city"
@@ -213,7 +213,7 @@ export default function Checkout() {
               <label className="flex flex-col text-gray-700 font-medium mb-1">
                 State
                 <div className="relative">
-                  <FaMapMarkerAlt className="absolute left-3 top-3 text-blue-500" />
+                  <FaMapMarkerAlt className="absolute left-3 top-4 text-blue-500" />
                   <input
                     type="text"
                     name="state"
@@ -236,7 +236,7 @@ export default function Checkout() {
               <label className="flex flex-col text-gray-700 font-medium mb-1">
                 Zip Code
                 <div className="relative">
-                  <FaMapMarkerAlt className="absolute left-3 top-3 text-blue-500" />
+                  <FaMapMarkerAlt className="absolute left-3 top-4 text-blue-500" />
                   <input
                     type="text"
                     name="zipCode"
@@ -260,7 +260,7 @@ export default function Checkout() {
               <label className="flex flex-col text-gray-700 font-medium mb-1">
                 Address Line 1
                 <div className="relative">
-                  <FaHome className="absolute left-3 top-3 text-blue-500" />
+                  <FaHome className="absolute left-3 top-4 text-blue-500" />
                   <input
                     type="text"
                     name="address1"
@@ -283,7 +283,7 @@ export default function Checkout() {
               <label className="flex flex-col text-gray-700 font-medium mb-1">
                 Address Line 2 (Optional)
                 <div className="relative">
-                  <FaHome className="absolute left-3 top-3 text-blue-500" />
+                  <FaHome className="absolute left-3 top-4 text-blue-500" />
                   <input
                     type="text"
                     name="address2"
@@ -337,7 +337,7 @@ export default function Checkout() {
               <label className="flex flex-col text-gray-700 font-medium">
                 Card Number
                 <div className="relative">
-                  <FaCreditCard className="absolute left-3 top-3 text-blue-500" />
+                  <FaCreditCard className="absolute left-3 top-4 text-blue-500" />
                   <input
                     type="text"
                     name="cardNumber"
@@ -358,7 +358,7 @@ export default function Checkout() {
               <label className="flex flex-col text-gray-700 font-medium">
                 Expiry (MM/YY)
                 <div className="relative">
-                  <FaCalendarAlt className="absolute left-3 top-3 text-blue-500" />
+                  <FaCalendarAlt className="absolute left-3 top-4 text-blue-500" />
                   <input
                     type="text"
                     name="expiry"
@@ -379,7 +379,7 @@ export default function Checkout() {
               <label className="flex flex-col text-gray-700 font-medium">
                 CVV
                 <div className="relative">
-                  <FaLock className="absolute left-3 top-3 text-blue-500" />
+                  <FaLock className="absolute left-3 top-4 text-blue-500" />
                   <input
                     type="password"
                     name="cvv"

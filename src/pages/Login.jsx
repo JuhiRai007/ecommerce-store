@@ -35,11 +35,9 @@ export default function Login() {
     setLoading(true);
 
     try {
-      // Accept any username, simulate user object
       login({
-        id: Date.now(), // Simulate unique id
+        id: Date.now(), 
         username: form.username.trim(),
-        // Optionally add other fields
       });
       toast.success("Logged in successfully!");
       navigate(from, { replace: true });
@@ -66,7 +64,7 @@ export default function Login() {
               name="username"
               value={form.username}
               onChange={handleChange}
-              placeholder="Username (use your own name!)"
+              placeholder="Username"
               className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
               aria-label="Username"
               required
